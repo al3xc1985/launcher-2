@@ -222,6 +222,11 @@
   <ItemGroup>
     <None Include="icons\Icon1.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Utils\CreateWindowsIcons.exe" />
+    <Content Include="Utils\GitRevisionTool.exe" />
+    <Content Include="Utils\NetRevisionTool.exe" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>$(ProjectDir)CreateWindowsIcons.exe "launcher.exe"</PostBuildEvent>
