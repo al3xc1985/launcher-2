@@ -1,4 +1,4 @@
-# launcher https://travis-ci.org/kotishe/launcher.svg
+# launcher [![Build Status](https://travis-ci.org/kotishe/launcher.svg)](https://travis-ci.org/kotishe/launcher)
 simple launcher for wow
 
 To-Do: 
